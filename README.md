@@ -70,9 +70,8 @@ Aqui estão disponíveis os notebooks de práticas (**LABs**), imagens de teste 
 
 ## 🚀 Como usar no Google Colab
 1. Abra o link do notebook desejado neste repositório.  
-2. Clique em **"Open in Colab"** (se disponível) ou copie o link raw:  
-https://raw.githubusercontent.com/guirco/pdi-ufpel/main/labs/LABX_nome.ipynb
-3. No Colab, abra via **File > Open notebook > GitHub** ou cole a URL raw.  
+2. Clique em **"Open in Colab"**.
+3. No Colab, faça uma cópia do notebook para você e edite livremente.  
 4. Execute as células e realize os desafios e tarefas **durante a aula**!
 
 ---
