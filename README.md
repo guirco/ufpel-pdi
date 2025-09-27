@@ -19,12 +19,12 @@ Aqui estão disponíveis os notebooks de práticas (**LABs**), imagens de teste 
 ---
 
 ### **LAB1 — Amostragem e Quantização**
-- Resolução espacial e radiométrica.  
-- Interpolação.  
+- Resolução espacial e de intensidade.  
+- Interpolação de vizinho mais próximo, bilinear e bicúbica.  
 
-### **LAB2 — Operações matemáticas e transformações**
-- Transformações de intensidade (alargamento de contraste).  
-- Transformações geométricas (translação, rotação, escala).  
+### **LAB2 — Alargamento de Contraste**
+- Alargamento de contraste global.
+- Equalização de histogramas com CLAHE.  
 
 ### **LAB3 — Filtragem no domínio espacial**
 - Filtros de suavização (média, gaussiano).  
