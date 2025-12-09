@@ -1,80 +1,137 @@
-# 🖼️ Processamento Digital de Imagens - UFPel
+# Processamento Digital de Imagens — UFPel
+
 **Professor:** Guilherme Ribeiro Corrêa  
-**Instituição:** Universidade Federal de Pelotas — CDTec / Ciência da Computação & Engenharia de Computação  
+**Instituição:** Universidade Federal de Pelotas — CDTec / Computação  
 
-Repositório de apoio à disciplina **Processamento Digital de Imagens (PDI)**.  
-Aqui estão disponíveis os notebooks de práticas (**LABs**), imagens de teste (`/data`) e materiais auxiliares.  
-
----
-
-## 📚 Estrutura dos LABs
-
-### **LAB0 — Introdução ao ambiente Python/Colab**
-- Configuração do ambiente (Google Colab / Jupyter).  
-- Bibliotecas: `numpy`, `matplotlib`, `scikit-image`, `opencv`, `imageio`.  
-- Operações básicas com matrizes (`numpy`).  
-- Leitura e exibição de imagens PNG.  
-- Separação e visualização de canais RGB.  
+Repositório oficial da disciplina *Processamento Digital de Imagens (PDI)*.  
+Este repositório contém os notebooks de laboratório (LABs), o diretório de imagens de teste (`/data`) e materiais de apoio utilizados ao longo do semestre.
 
 ---
 
-### **LAB1 — Amostragem e Quantização**
-- Resolução espacial e de intensidade.  
-- Interpolação de vizinho mais próximo, bilinear e bicúbica.  
+## Estrutura dos LABs
 
-### **LAB2 — Alargamento de Contraste**
-- Alargamento de contraste global.
-- Equalização de histogramas com CLAHE.  
-
-### **LAB3 — Filtragem no domínio espacial**
-- Filtros de suavização (média, gaussiano).  
-- Filtros de realce (Laplaciano, alto-relevo).  
-
-### **LAB4 — Filtragem no domínio da frequência**
-- Transformada de Fourier.  
-- Filtragem passa-baixa e passa-alta.  
-
-### **LAB5 — Restauração de imagens**
-- Modelos de ruído.  
-- Filtros adaptativos para redução de ruído.  
-
-### **LAB6 — Transformações de cores**
-- Modelos de cor (RGB, HSV, YCbCr).  
-- Conversões entre espaços de cor.  
-
-### **LAB7 — Atividade remota**
-- Exercício aplicado envolvendo conteúdo já visto.  
-- Pode variar entre filtros, transformações e manipulações de cores.  
-
-### **LAB8 — Compressão de imagens**
-- Fundamentos de compressão.  
-- Codificação JPEG (quantização, DCT).  
-
-### **LAB9 — Processamento morfológico**
-- Operações de morfologia matemática.  
-- Extração de fronteiras.  
-- Preenchimento de buracos.  
-
-### **LAB10 — Detecção de bordas**
-- Cálculo de gradiente.  
-- Operador de Sobel.  
+### LAB00 — Introdução ao Ambiente Python/Colab  
+**Arquivo:** `LAB00_Intro_PDI_Python.ipynb`  
+Conteúdos:
+- Introdução ao Google Colab e Jupyter Notebook  
+- Bibliotecas essenciais (`numpy`, `matplotlib`, `scikit-image`, `opencv`, `imageio`)  
+- Matrizes e operações com `numpy`  
+- Leitura e exibição de imagens  
+- Canais RGB  
 
 ---
 
-## 📂 Estrutura do Repositório
-- `labs/` → notebooks de cada prática.  
-- `data/` → imagens de exemplo para os exercícios.  
-- `README.md` → este documento.  
+### LAB01 — Amostragem, Quantização e Interpolação  
+**Arquivo:** `LAB01_Amostragem_Quantização_Interpolação.ipynb`  
+Conteúdos:
+- Resolução espacial e tonal  
+- Subamostragem e quantização  
+- Interpolação: vizinho mais próximo, bilinear, bicúbica  
 
 ---
 
-## 🚀 Como usar no Google Colab
-1. Abra o link do notebook desejado neste repositório.  
-2. Clique em **"Open in Colab"**.
-3. No Colab, faça uma cópia do notebook para você e edite livremente.  
-4. Execute as células e realize os desafios e tarefas **durante a aula**!
+### LAB02 — Alargamento de Contraste  
+**Arquivo:** `LAB02_Alargamento_Contraste.ipynb`  
+Conteúdos:
+- Transformações de intensidade  
+- Alargamento linear  
+- Equalização de histogramas (global e CLAHE)  
 
 ---
 
-📌 *Sugestão:* todos os alunos devem clonar o repositório ou abrir os notebooks diretamente no Colab.  
-As entregas podem ser em formato **`.ipynb` + export `.html` ou `.pdf`** com as células executadas.  
+### LAB03 — Filtragem Espacial (Parte I)  
+**Arquivo:** `LAB03_Filtragem_Espacial.ipynb`  
+Conteúdos:
+- Suavização: média, mediana e gaussiana  
+- Realce: laplaciano e alta frequência  
+
+---
+
+### LAB04 — Filtragem Espacial (Parte II – Continuação)  
+**Arquivo:** `LAB04_Filtragem_Espacial_cont.ipynb`  
+Conteúdos:
+- Realce de bordas  
+- Combinação de filtros  
+- Aplicações em imagens naturais  
+
+---
+
+### LAB05 — Filtragem no Domínio da Frequência  
+**Arquivo:** `LAB05_Filtragem_Frequencias.ipynb`  
+Conteúdos:
+- Transformada de Fourier 2D  
+- Visualização de espectros  
+- Filtros passa-baixa, passa-alta e passa-faixa no domínio da frequência  
+
+---
+
+### LAB06 — Remoção de Ruído e Melhoria de Qualidade  
+**Arquivo:** `LAB06_Remocao_Ruido_Melhoria_Qualidade.ipynb`  
+Conteúdos:
+- Modelos de ruído (gaussiano, sal-e-pimenta, speckle)  
+- Filtros adaptativos e não-lineares  
+- Técnicas de restauração  
+
+---
+
+### LAB07 — Imagens Coloridas  
+**Arquivo:** `LAB07_Imagens_Coloridas.ipynb`  
+Conteúdos:
+- Modelos de cor: RGB, HSV, YCbCr, Lab  
+- Conversões entre espaços de cor  
+- Manipulação de canais  
+
+---
+
+### LAB08 — Compressão JPEG  
+**Arquivo:** `LAB08_Compressao_JPEG.ipynb`  
+Conteúdos:
+- Conceitos de compressão  
+- DCT e quantização  
+- Análise do fator de qualidade e artefatos  
+
+---
+
+### LAB09 — Processamento Morfológico  
+**Arquivo:** `LAB09_Processamento_Morfologico.ipynb`  
+Conteúdos:
+- Erosão, dilatação, abertura e fechamento  
+- Extração de fronteiras  
+- Preenchimento de buracos  
+- Elementos estruturantes  
+
+---
+
+### LAB10 — Segmentação de Imagens  
+**Arquivo:** `LAB10_Segmentacao.ipynb`  
+Conteúdos:
+- Limiarização global e local  
+- Método de Otsu  
+- Region growing  
+- Rotulagem de componentes conectados  
+
+---
+
+## Estrutura do Repositório
+
+/
+├── labs/ → Notebooks de cada laboratório (LAB00 a LAB10)
+├── data/ → Imagens de teste
+└── README.md → Documento principal da disciplina
+
+
+
+---
+
+## Como usar no Google Colab
+
+1. Acesse o notebook na pasta `labs/`.  
+2. Clique em **Open in Colab**.  
+3. No Colab, selecione *File → Save a copy in Drive*.  
+4. Execute todas as células e responda às atividades propostas.  
+
+---
+
+## Entregas
+
+As atividades devem ser apresentadas em aula ao professor.
