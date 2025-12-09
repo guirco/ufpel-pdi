@@ -114,12 +114,9 @@ Conteúdos:
 
 ## Estrutura do Repositório
 
-/
-
-├── labs/ → Notebooks de cada laboratório (LAB00 a LAB10)
-
-├── data/ → Imagens de teste
-
+/ <br>
+├── data/ → Imagens de teste <br>
+├── Notebooks de cada laboratório (LAB00 a LAB10) <br>
 └── README.md → Documento principal da disciplina
 
 
