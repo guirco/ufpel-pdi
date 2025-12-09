@@ -125,10 +125,10 @@ Conteúdos:
 
 ## Como usar no Google Colab
 
-1. Acesse o notebook na pasta `labs/`.  
+1. Acesse o notebook na pasta raiz.  
 2. Clique em **Open in Colab**.  
 3. No Colab, selecione *File → Save a copy in Drive*.  
-4. Execute todas as células e responda às atividades propostas.  
+4. Execute todas as células, realize as tarefas e responda às atividades propostas.  
 
 ---
 
